@@ -16,12 +16,12 @@ namespace WPFLift
 {
 	/// <summary>
 	/// 作者：xxh 
-	/// 时间：2014-01-10 12:10:14
+	/// 时间：2014-01-11 9:45:53
 	/// 版本：V1.0.0 	 
 	/// </summary>
-	public partial class UCLift : UserControl
+	public partial class UCFloor : UserControl
 	{
-		public UCLift()
+		public UCFloor()
 		{
 			InitializeComponent();
 		}
