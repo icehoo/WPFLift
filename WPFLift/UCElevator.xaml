@@ -4,8 +4,78 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
-    </Grid>
+             d:DesignHeight="160" d:DesignWidth="184">
+	<Border BorderThickness="1,0,1,1" BorderBrush="{DynamicResource BrushFloorLine}" Margin="0" Width="184" Height="160">
+		<Grid Background="#FF858585" ClipToBounds="True">
+			<Path Data="M16.2475,73.836511 L131.4501,26.826531 245.14108,28.758276 0.43217597,127.31806 z" Fill="#FFF4F4F5" Margin="7.295,0,17.305,-45.329" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" Height="100.199" VerticalAlignment="Bottom">
+				<Path.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform Angle="31.885"/>
+						<TranslateTransform X="5.6046553703361468" Y="4.9609521310064295"/>
+					</TransformGroup>
+				</Path.RenderTransform>
+			</Path>
+			<Path Data="M0.5,0.5" Fill="#FFF4F4F5" Margin="-0.719,-0.375,0,0" Stretch="Fill" Stroke="Black" HorizontalAlignment="Left" Width="1" Height="1" VerticalAlignment="Top"/>
+			<Path Data="M40.184219,87.587018 L188.65252,33.194891 302.65536,5.5382997 -10.394222,118.95121 z" Fill="#FFF4F4F5" Margin="14.905,-68.364,10.708,0" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" Height="97.663" VerticalAlignment="Top">
+				<Path.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="-1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="-31.885"/>
+						<TranslateTransform X="-1.5979924144576785" Y="19.53298655983383"/>
+					</TransformGroup>
+				</Path.RenderTransform>
+			</Path>
+			<Border BorderThickness="1,0" Margin="34.932,9.75,59.068,39" BorderBrush="{DynamicResource BrushFloorLine}"/>
+			<Image Margin="27.932,95,122.068,32" Source="Images/flower.png" Stretch="Fill" Width="32" Height="32" RenderTransformOrigin="1.25,0.281"/>
+			<StackPanel Margin="28,0,0,0" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left">
+				<Grid Height="9.375" Width="14.417">
+					<Path Data="M-4.7274832,6.7488079 L0.5,0.5 8.557,0.5 12.644885,6.8425333" Margin="-1.125,3.125,-0.552,-1.094" Stretch="Fill">
+						<Path.Fill>
+							<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+								<GradientStop Color="#FF6C7422" Offset="0"/>
+								<GradientStop Color="#FFEEFD52" Offset="0.957"/>
+							</LinearGradientBrush>
+						</Path.Fill>
+					</Path>
+					<Path Data="M7.5,3 C7.5,4.3807119 5.9329966,5.5 4,5.5 2.0670034,5.5 0.5,4.3807119 0.5,3 0.5,1.6192881 2.0670034,0.5 4,0.5 5.9329966,0.5 7.5,1.6192881 7.5,3 z" Fill="#FFEFF996" Margin="3.417,0,3,3.375" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" />
+				</Grid>
+				<Grid Height="9.375" Width="14.417" Margin="20,0,0,0">
+					<Path Data="M-4.7274832,6.7488079 L0.5,0.5 8.557,0.5 12.644885,6.8425333" Margin="-1.125,3.125,-0.552,-1.094" Stretch="Fill">
+						<Path.Fill>
+							<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+								<GradientStop Color="#FF6C7422" Offset="0"/>
+								<GradientStop Color="#FFEEFD52" Offset="0.957"/>
+							</LinearGradientBrush>
+						</Path.Fill>
+					</Path>
+					<Path Data="M7.5,3 C7.5,4.3807119 5.9329966,5.5 4,5.5 2.0670034,5.5 0.5,4.3807119 0.5,3 0.5,1.6192881 2.0670034,0.5 4,0.5 5.9329966,0.5 7.5,1.6192881 7.5,3 z" Fill="#FFEFF996" Margin="3.417,0,3,3.375" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" />
+				</Grid>
+				<Grid Height="9.375" Width="14.417" Margin="20,0,0,0">
+					<Path Data="M-4.7274832,6.7488079 L0.5,0.5 8.557,0.5 12.644885,6.8425333" Margin="-1.125,3.125,-0.552,-1.094" Stretch="Fill">
+						<Path.Fill>
+							<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+								<GradientStop Color="#FF6C7422" Offset="0"/>
+								<GradientStop Color="#FFEEFD52" Offset="0.957"/>
+							</LinearGradientBrush>
+						</Path.Fill>
+					</Path>
+					<Path Data="M7.5,3 C7.5,4.3807119 5.9329966,5.5 4,5.5 2.0670034,5.5 0.5,4.3807119 0.5,3 0.5,1.6192881 2.0670034,0.5 4,0.5 5.9329966,0.5 7.5,1.6192881 7.5,3 z" Fill="#FFEFF996" Margin="3.417,0,3,3.375" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" />
+				</Grid>
+				<Grid Height="9.375" Width="14.417" Margin="20,0,0,0">
+					<Path Data="M-4.7274832,6.7488079 L0.5,0.5 8.557,0.5 12.644885,6.8425333" Margin="-1.125,3.125,-0.552,-1.094" Stretch="Fill">
+						<Path.Fill>
+							<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+								<GradientStop Color="#FF6C7422" Offset="0"/>
+								<GradientStop Color="#FFEEFD52" Offset="0.957"/>
+							</LinearGradientBrush>
+						</Path.Fill>
+					</Path>
+					<Path Data="M7.5,3 C7.5,4.3807119 5.9329966,5.5 4,5.5 2.0670034,5.5 0.5,4.3807119 0.5,3 0.5,1.6192881 2.0670034,0.5 4,0.5 5.9329966,0.5 7.5,1.6192881 7.5,3 z" Fill="#FFEFF996" Margin="3.417,0,3,3.375" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" />
+				</Grid>
+			</StackPanel>
+		</Grid>
+	</Border>
 </UserControl>

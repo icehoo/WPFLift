@@ -4,7 +4,7 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
-    	<SolidColorBrush x:Key="BrushFloorLine" Color="#FF525252"/>
+    	<SolidColorBrush x:Key="BrushFloorLine" Color="#FF454545"/>
          
     </Application.Resources>
 </Application>

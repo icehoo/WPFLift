@@ -75,6 +75,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ElevatorEnum.cs" />
     <Compile Include="UCFloor.xaml.cs">
       <DependentUpon>UCFloor.xaml</DependentUpon>
     </Compile>
@@ -150,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\933.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\flower.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

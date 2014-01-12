@@ -3,31 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d">
-    <Border BorderThickness="1,0,1,1" Width="184" Height="160" BorderBrush="{DynamicResource BrushFloorLine}">
-		<Grid Background="#FF858585" ClipToBounds="True">
-			<Path Data="M35.311692,65.510657 L152.00641,19.032385 242.16609,28.794049 1.4567056,125.32755 z" Fill="#FFF4F4F5" Margin="12.258,0,14.899,-44.902" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" Height="105.928" VerticalAlignment="Bottom">
-				<Path.RenderTransform>
-					<TransformGroup>
-						<ScaleTransform/>
-						<SkewTransform/>
-						<RotateTransform Angle="31.885"/>
-						<TranslateTransform X="4.284493337624923" Y="3.853403507608899"/>
-					</TransformGroup>
-				</Path.RenderTransform>
-			</Path>
-			<Path Data="M0.5,0.5" Fill="#FFF4F4F5" Margin="-0.719,-0.375,0,0" Stretch="Fill" Stroke="Black" HorizontalAlignment="Left" Width="1" Height="1" VerticalAlignment="Top"/>
-			<Path Data="M66.392919,77.832959 L215.08685,23.79089 301.53544,6.6639625 -6.8844555,117.79524 z" Fill="#FFF4F4F5" Margin="15.877,-70.099,12.034,0" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="{DynamicResource BrushFloorLine}" Height="95.719" VerticalAlignment="Top">
-				<Path.RenderTransform>
-					<TransformGroup>
-						<ScaleTransform ScaleY="-1" ScaleX="1"/>
-						<SkewTransform AngleY="0" AngleX="0"/>
-						<RotateTransform Angle="-31.885"/>
-						<TranslateTransform X="-0.91119380155573992" Y="21.937241731849156"/>
-					</TransformGroup>
-				</Path.RenderTransform>
-			</Path>
-			<Border BorderThickness="1,0" Margin="50.25,9.75,43.75,39" BorderBrush="{DynamicResource BrushFloorLine}"/>
-		</Grid>
-	</Border>
+             mc:Ignorable="d" d:DesignHeight="80">
+	<Grid>
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF3572EB" Offset="1"/>
+				<GradientStop Color="#FFDEDFE2"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Path Data="M24,-0.86956522 L320,-0.86956519 327.5,63.5 0.5,63.5 z" Fill="{DynamicResource BrushFloorLine}" Margin="0" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Height="24.5" VerticalAlignment="Bottom"/>
+	</Grid>
 </UserControl>
