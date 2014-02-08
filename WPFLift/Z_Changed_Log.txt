@@ -1,0 +1,7 @@
+﻿2014-2-2
+1.让电梯动起来 Run the elevator
+
+2014-2-4
+1.让电梯有顺序地动 Run the elevator in order
+2.加入语音
+3.匀速升降

@@ -1,10 +1,84 @@
-﻿<Application x:Class="WPFLift.App"
+﻿<Application
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WPFLift.App"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     	<SolidColorBrush x:Key="BrushFloorLine" Color="#FF454545"/>
+    	<Style x:Key="CheckBoxStyle" TargetType="{x:Type CheckBox}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type CheckBox}">
+    					<Grid>
+    						<Ellipse x:Name="ellipse" Fill="#FFF4F4F5" Stroke="#FFE4C11C"/>
+    						<TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" Foreground="#FFE42E1C" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsChecked" Value="True">
+    							<Setter Property="Stroke" TargetName="ellipse" Value="#FFE42E1C"/>
+    						</Trigger>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    		<Setter Property="FontSize" Value="6"/>
+    		<Setter Property="Foreground" Value="#FFE4C11C"/>
+    	</Style>
+    	<Style x:Key="CheckBoxStyleUp" TargetType="{x:Type CheckBox}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type CheckBox}">
+    					<Grid>
+    						<Ellipse x:Name="ellipse" Fill="#FFF4F4F5" Stroke="#FFE4C11C"/>
+    						<Path x:Name="path" Data="M-2.081035,-2.5084914 L17.883997,1.6961807 1.5257043,17.908983 z" Fill="#FFF4F4F5" Margin="4.541,5.274,2.637,1.846" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="#FFE4C11C" >
+    							<Path.RenderTransform>
+    								<TransformGroup>
+    									<ScaleTransform/>
+    									<SkewTransform/>
+    									<RotateTransform Angle="45"/>
+    									<TranslateTransform X="-0.93150609665441042" Y="0.36885465197629941"/>
+    								</TransformGroup>
+    							</Path.RenderTransform>
+    						</Path>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsChecked" Value="True">
+    							<Setter Property="Stroke" TargetName="ellipse" Value="#FFE42E1C"/>
+    							<Setter Property="Stroke" TargetName="path" Value="#FFE42E1C"/>
+    						</Trigger>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<Style x:Key="CheckBoxStyleDown" TargetType="{x:Type CheckBox}">
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type CheckBox}">
+    					<Grid>
+    						<Ellipse x:Name="ellipse" Fill="#FFF4F4F5" Stroke="#FFE4C11C"/>
+    						<Path x:Name="path" Data="M-2.081035,-2.5084914 L17.883997,1.6961807 1.5257043,17.908983 z" Fill="#FFF4F4F5" Margin="4.416,2.024,2.762,5.096" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Stroke="#FFE4C11C" >
+    							<Path.RenderTransform>
+    								<TransformGroup>
+    									<ScaleTransform/>
+    									<SkewTransform/>
+    									<RotateTransform Angle="225"/>
+    									<TranslateTransform X="-0.93150609665441042" Y="0.36885465197629941"/>
+    								</TransformGroup>
+    							</Path.RenderTransform>
+    						</Path>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsChecked" Value="True">
+    							<Setter Property="Stroke" TargetName="path" Value="#FFE42E1C"/>
+    							<Setter Property="Stroke" TargetName="ellipse" Value="#FFE42E1C"/>
+    						</Trigger>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
          
     </Application.Resources>
 </Application>

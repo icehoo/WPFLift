@@ -1,5 +1,9 @@
 ﻿using System.Windows;
 using System;
+using System.Windows.Media.Animation;
+using System.Windows.Media;
+using System.Timers;
+using System.Collections.Generic;
 
 namespace WPFLift
 {
@@ -9,7 +13,7 @@ namespace WPFLift
 	public partial class MainWindow : Window
 	{
 		#region 变量
-
+		
 		#endregion
 
 		#region 属性
@@ -34,7 +38,7 @@ namespace WPFLift
 		#endregion
 
 		#region 业务
-
+		
 		#endregion
 	}
 }
